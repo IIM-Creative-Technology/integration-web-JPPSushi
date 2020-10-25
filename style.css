@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+header{
+    width: 75%;
+    background-color: #382a6c;
+    display: flex;
+    flex-direction: column;
+
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 80px 30px 80px;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.lien{
+    font-size: 18px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.butNav {
+    font-size: 17px;
+    color: white;
+    background-color: #bf3676;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.containerHead{
+    display: flex;
+    color: white;
+}
+.contH1{
+    padding-left: 170px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.HContTitre{
+    font-size: 28px;
+}
+.Htxt{
+    padding: 15px 0px 15px 0px;
+}
+.but {
+    font-size: 17px;
+    color: white;
+    background-color: #bf3676;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+}
+.contH2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Hbot{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-bottom: 30px;
+}
+main{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.ContainerMain{
+    background-image: url("img/background.png");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TMain{
+    padding: 40px 0px 40px 0px;
+    color: #bf3676;
+}
+.ligne2 {
+    width: 100%;
+}
+.ligne2 hr{
+    width: 40%;
+    margin: auto;
+    color: #bf3676;
+    border-color:#bf3676 ;
+}
+.txtMain{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    
+}
+.contM{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contM1{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.contMM{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ContainerMain img {
+    padding-right: 20px;
+}
+.point:after{
+    content: ".";
+    color: #bf3676;
+    font-size: 80px;
+}
+.but2 {
+    font-size: 17px;
+    color: white;
+    background-color: #bf3676;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+}
+.ContBut{
+    padding: 80px;
+}
+.ContainerMain2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ligne3{
+    width: 100%;
+}
+.ligne3 hr{
+    width: 20%;
+    color: #bf3676;
+    border-color:#bf3676 ;
+}
+.title{
+    color: #bf3676 ;
+    padding: 80px 80px 80px 80px;
+    font-size: 25px;
+}
+.ContainerMain3{
+    background-image: url("img/paris-personnalises.png");
+    background-repeat: no-repeat;
+    background-color: #382a6c;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.title2{
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 60px 0;
+}
+.ligne {
+    width: 100%;
+}
+.ligne hr{
+    width: 20%;
+    margin: auto;
+}
+.ContLR{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.littleT{
+    display: flex;
+    padding-bottom: 30px;
+}
+.littleTT{
+    padding: 0px 30px 0px 0px ;
+}
+.littleT button{
+    background-color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Mtxt{
+    font-size: 18px;
+}
+.Utxt{
+    font-size: 15px;
+    padding:  10px 0 10px 0px;
+}
+
+.right{
+    padding-top: 35px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.Rcont{
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+.Rcont div{
+    font-size: 18px;
+}
+.nb{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 15px 0 0 ;
+}
+.but3{
+    font-size: 20px;
+    color: white;
+    background-color: #bf3676;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+}
+.ContBut2{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.ContainerMain4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.right2{
+    display: flex;
+    width: 50%;
+}
+.left2{
+    width: 49.7%;
+    display: flex;
+    justify-content: center;
+}
+.ContL{
+    width: 65%;
+    display: flex;
+}
+.ContTXT{
+    padding-top: 20px;
+}
+.I{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+.Mhaut{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Mtxt2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Lgrey{
+    color: lightgrey;
+    font-style: italic;
+    font-size: 15px;
+    padding: 20px 0 20px 0;
+}
+footer{
+    width: 75%;
+    background-image: url("img/background-footer.png");
+    background-size: cover;
+}
+footer p {
+    color: white;
+}
+.imgfoot{
+    padding: 40px 0px 20px 60px;
+}
+.contMT{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app{
+    width: 20%;
+    display: flex;
+    margin-top: 30px;
+}
+.app img{
+    padding: 5px;
+}
+.MT{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 18vh;
+    padding: 0 0 0 50px ;
+}
+
+.MT p{
+    padding: 10px;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+footer hr{
+    color: lightgrey;
+    width: 90%;
+    margin: auto;
+}
